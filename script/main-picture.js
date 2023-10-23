@@ -1,4 +1,10 @@
-import {savePictures} from "../data/pictures.js";
+export const savePictures = [{
+    image: "sad"
+},
+ {
+    image: "sad"
+ },
+];
 
 const mainPictures =    `
 <button class = "button-left js-button-left" onclick = "addPixel();"> > </button>
