@@ -83,11 +83,30 @@
 }
 
 .switch-container img {
-    height:20px;
-    width: 20px;
+    height:18px;
+    width: 18px;
     padding:10px 0 0 15px
 }
 
 .switch-container p {
     padding:13px 0 0 10px
+}
+hr {
+    border-color:rgba(50, 50, 51, 0.1);
+}
+
+
+.birthday-container {
+    margin-top: 10px;
+    display:flex;
+    flex-direction: row;
+}
+.birthday-container img {
+    margin:5px 0 0 10px;
+    height:25px;
+    width: 25px;
+}
+.birthday-container p {
+    margin-left:10px;
+    font-size: 13px;
 }
