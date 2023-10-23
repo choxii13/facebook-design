@@ -4,9 +4,90 @@
     bottom:0;
     right: 0;
     border:1px solid red;
-    margin-top:60px;
+    margin-top:55px;
     width:250px;
     z-index:100;
+    display:flex;
+    flex-direction: column;
+    padding-top:20px;
+    gap:10px;
+    color:rgba(50, 50, 51, 0.9);
+    font-weight: 550;
 }
 
 
+.sidebar-right-container {
+    display:flex;
+    flex-direction: row;
+    color:black;   
+}
+
+.sidebar-right-container-image {
+    height:90px;
+    width:90px; 
+    object-fit: cover;
+} 
+.sidebar-right-container-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.sidebar-right-container p {
+    padding:35px 0 0 10px;
+} 
+.your-pages-and-profiles-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.your-pages-and-profiles{
+    display:flex;
+    flex-direction: row;
+}  
+.your-pages-and-profiles div {
+    height: 15px;
+    width: 15px;
+    object-fit: cover;
+}
+.your-pages-and-profiles img {
+    height:100%;
+    width: 100%;
+    margin-left: 40px;
+} 
+
+.brave-plays-container {
+    display:flex;
+    flex-direction: row;
+    margin-top:10px;
+}
+
+
+.brave-plays-container img {
+    height: 35px;
+    width: 35px;
+    border-radius: 20px; 
+}
+.brave-plays-container p {
+    padding:9px 0 0 10px;
+    color: black;
+    font-weight: 550;
+    font-size: 14px;
+}
+
+.switch-container {
+    display:flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.switch-container img {
+    height:20px;
+    width: 20px;
+    padding:10px 0 0 15px
+}
+
+.switch-container p {
+    padding:13px 0 0 10px
+}

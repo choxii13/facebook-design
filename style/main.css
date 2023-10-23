@@ -2,11 +2,10 @@
 .set-of-pictures-hide {
     height:200px;
     width:450px;
-    left:300px;
+    left:280px;
     position: relative;
-     overflow:hidden;  
-    border:1px solid pink;
-   
+    overflow:hidden;  
+
 }
 .button-left {
     position: absolute;
@@ -15,16 +14,15 @@
     top:70px;
     right:10px;
     border-radius:25px;
-    z-index:100;
+    z-index:10;
 }
 .set-of-pictures {
-   border:1px solid blue;
    display:flex;
    justify-content: center;
    align-items: center;
    gap:10px;
    position: absolute;
-  
+   
 }
 
 .set-of-pictures img {
@@ -32,12 +30,28 @@
     width: 100%;
     object-fit: cover;
     border-radius:10px;
+    filter:brightness(80%);
+    
+    
 }
-.set-of-pictures div {
+.main-pictures-container {
     height:200px;
     width:115px;
+    overflow:hidden;
 }
-
 .move-pictures {
-    left:var(--was);
+    left:var(--move);
  }
+
+.main-pictures-container:nth-child(1) 
+img:hover{
+    transform:scale(1);
+    cursor:pointer;
+ }
+ 
+
+ .set-of-pictures img:hover {
+    transform:scale(1.01);
+    cursor:pointer;
+}  
+

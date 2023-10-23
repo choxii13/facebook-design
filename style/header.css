@@ -12,9 +12,9 @@
     left: 0;
     right: 0;
     z-index:100;
+
   
 }
-
 .left-section {
 display:flex;
 flex-direction:row;
@@ -46,7 +46,7 @@ flex-direction:row;
     display:flex;
     width: 330px;
     justify-content: space-between;
-    margin-left:70px;
+    margin-left:130px;
 }
 .img-home, .img-group,  
 .img-gaming {
