@@ -1,0 +1,10 @@
+.sidebar-left {
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left: 0;
+    border:1px solid red;
+    margin-top:60px;
+    width:270px;
+    z-index:100;
+}

@@ -1,0 +1,43 @@
+
+.set-of-pictures-hide {
+    height:200px;
+    width:450px;
+    left:300px;
+    position: relative;
+     overflow:hidden;  
+    border:1px solid pink;
+   
+}
+.button-left {
+    position: absolute;
+    width:50px;
+    height:50px;
+    top:70px;
+    right:10px;
+    border-radius:25px;
+    z-index:100;
+}
+.set-of-pictures {
+   border:1px solid blue;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   gap:10px;
+   position: absolute;
+  
+}
+
+.set-of-pictures img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius:10px;
+}
+.set-of-pictures div {
+    height:200px;
+    width:115px;
+}
+
+.move-pictures {
+    left:var(--was);
+ }
