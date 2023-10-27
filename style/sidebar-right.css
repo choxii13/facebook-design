@@ -49,12 +49,12 @@
 .your-pages-and-profiles div {
     height: 15px;
     width: 15px;
-    object-fit: cover;
 }
-.your-pages-and-profiles img {
+.three-dots {
     height:100%;
     width: 100%;
     margin-left: 40px;
+    object-fit: cover;
 } 
 
 .brave-plays-container {
@@ -110,3 +110,48 @@ hr {
     margin-left:10px;
     font-size: 13px;
 }
+
+.contacts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-three{
+    width:15px;
+    height:15px;
+}
+.contact-search {
+    width:13px;
+    height:13px;
+}
+.contacts-contain {
+    display: flex;
+    flex-direction: row;
+    margin-right:10px;
+    gap:20px;
+}
+.contact-name-container {
+    display: flex;
+    flex-direction: column;
+}
+.contact-name {
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-left:3px;
+}
+.contact-name img {
+    width:40px;
+    height:40px;
+    border-radius: 20px;
+    margin-bottom:10px;
+}
+.contact-name p {
+    padding-top:11px;
+    font-size:15px;
+    font-weight: 500;
+    color: black;
+
+}
+.contact-name-container:
