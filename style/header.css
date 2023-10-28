@@ -16,6 +16,16 @@
 .left-section {
 display:flex;
 flex-direction:row;
+position: relative;
+gap:10px;
+margin-left:10px;
+}
+
+.search-background-image,
+.search-background-image-p {
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .img-facebook:hover {
     cursor: pointer;
@@ -25,21 +35,26 @@ flex-direction:row;
     width:40px;
 }
 .img-search {
-    height:40%;
-    width:40%;
+    height:17px;
+    width:17px;
 }
 .search-background {
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color:rgb(232, 234, 238);
     height:40px;
     width:40px;
     border-radius: 20px;
-    margin-left:10px;
+    flex-direction: row;
+    gap:10px;
+    font-size:13px;
+    color:rgba(87, 85, 85, 0.89);
+   justify-content: center;
+    position: relative;
 }
-.img-facebook {
-    margin-left:10px;
+
+.search-background-image-p {
+    display: none;
 }
 
 .middle-section {
@@ -47,7 +62,8 @@ flex-direction:row;
     position: relative;
     width: 400px;
     justify-content: space-between;
-    margin-left:130px;
+    margin-left:70px;
+    
 }
 .img-home, .img-group,  
 .img-gaming {

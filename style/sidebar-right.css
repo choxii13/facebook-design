@@ -15,16 +15,9 @@ flex:1;
     gap:5px;
     color:rgba(50, 50, 51, 0.9);
     font-weight: 550;
-    background-color:red;
     overflow-y:scroll;
-    width:23vw;
-    
+    width:23vw;    
 }
-
-.sidebar-right::-webkit-scrollbar {
-    display: none;
-}
-
 
 
 .sidebar-right-container {
@@ -34,6 +27,7 @@ flex:1;
     gap:10px;
   
 }
+
 
 .sidebar-right-container-image {
     height:70px;
@@ -146,6 +140,8 @@ hr {
     justify-content: space-between;
 
 }
+
+
 .contacts-container-contacts {
     display: flex;
     align-items: center;

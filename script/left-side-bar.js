@@ -66,8 +66,35 @@
 {
     image:"images/Aamon.jpg",
     name:"aamon"
+},
+{
+    image:"images/Aamon.jpg",
+    name:"aamon"
+},
+{
+    image:"images/Aamon.jpg",
+    name:"aamon"
+},
+{
+    image:"images/Aamon.jpg",
+    name:"aamon"
+},
+{
+    image:"images/Aamon.jpg",
+    name:"aamon"
+},
+{
+    image:"images/Aamon.jpg",
+    name:"aamon"
+},
+{
+    image:"images/Aamon.jpg",
+    name:"aamon"
+},
+{
+    image:"images/Aamon.jpg",
+    name:"aamon"
 }
-
 ];
 
 leftSideBar = '';
@@ -80,7 +107,8 @@ sideBar.forEach((picture) =>{
     <div class = "sidebar-left-image-container-p">
     <p class = "sidebar-left-p">${picture.name}</p>
     </div>
-    </div>`
+    </div>
+`
     ;
 });
 

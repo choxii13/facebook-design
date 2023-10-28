@@ -200,11 +200,26 @@ img:hover{
     .main-div-live{
         font-size:16px;
     }
+   
 }
 
-
+@media (min-width: 1190px) {
+    
+    .search-background-image-p {
+        display:flex;
+    }
+    .search-background {
+        width:200px;
+        justify-content:flex-start;
+        padding:10px;
+    }
+    .middle-section {
+        margin-right:120px;
+    }
+}
 
 @media (min-width: 1370px){
+    
     .main-grid {
         display: flex;
         width:1300px;
@@ -222,6 +237,9 @@ img:hover{
         width:700px;
     } 
     .sidebar-left {
+        width:270px;
+    }
+    .sidebar-right {
         width:270px;
     }
   
