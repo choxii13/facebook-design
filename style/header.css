@@ -76,7 +76,7 @@ flex-direction:row;
     height:40px;
     padding:10px;
     border-radius:10px;
-    opacity: 0;
+    display: none;
 } 
 
 .middle-section-container:hover  {
@@ -84,8 +84,8 @@ flex-direction:row;
     border-radius: 10px;
     cursor: pointer;
 }
-.middle-section-container:hover  .middle-section-container-p {
-    opacity:1;
+.middle-section-container:hover .middle-section-container-p {
+    display: flex;
 }
 .img-marketplace{
     height:23px;
@@ -128,7 +128,7 @@ flex-direction:row;
     background-color: rgb(59, 59, 59, 0.2);
 }
 .right-section-container:hover  .right-section-container-p{
-    opacity: 1;
+    display:flex;
 }
 .img-joshua {
     height:40px;
