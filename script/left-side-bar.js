@@ -1,6 +1,5 @@
  const sideBar = [{
     image:"images/joshua.jpg",
-    class:"profile-picture",
     name:"Joshua Teoxon"
 },
 {
@@ -41,7 +40,7 @@
 },
 {
     image:"images/Aamon.jpg",
-    name:"aamon"
+    name:"aamsadsad asd sadsa "
 },
 {
     image:"images/Aamon.jpg",
@@ -74,16 +73,16 @@
 leftSideBar = '';
 sideBar.forEach((picture) =>{
     leftSideBar += `
-    <div class = "sidebar-left-container js-sidebar-left-container ${picture.class}"> 
+<div class = "sidebar-left-container"> 
     <div class = "sidebar-left-image-container">
     <img src = "${picture.image}" class = "sidebar-left-image"> 
     </div>
-    <p class = "sidebar-left-container-name">${picture.name}</p>
+    <div class = "sidebar-left-image-container-p">
+    <p class = "sidebar-left-p">${picture.name}</p>
     </div>
     </div>`
     ;
 });
 
 
-document.querySelector('.sidebar-left').innerHTML = leftSideBar;
-console.log(leftSideBar);
+document.querySelector('.js-sidebar-left').innerHTML = leftSideBar;

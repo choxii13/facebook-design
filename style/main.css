@@ -1,28 +1,56 @@
 
+.center-bar {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+flex:3;
+gap:10px;
+}
+
 .set-of-pictures-hide {
-    height:200px;
-    width:450px;
-    left:280px;
+    height:240px;
+    width:56vw;
     position: relative;
     overflow:hidden;  
+}
+.button-right {
+    position: absolute;
+    width:50px;
+    height:50px;
+    top:85px;
+    right:10px;
+    border-radius:25px;
+    z-index:10;
+}
 
+.button-right-display{
+    display: none;
 }
 .button-left {
     position: absolute;
     width:50px;
     height:50px;
-    top:70px;
-    right:10px;
+    top:85px;
+    left:10px;
     border-radius:25px;
     z-index:10;
+    display: none;
 }
+
+.button-left-display{
+   display: block;
+}
+
+
+
 .set-of-pictures {
    display:flex;
    justify-content: center;
    align-items: center;
    gap:10px;
    position: absolute;
-   
+   left:var(--move)
 }
 
 .set-of-pictures img {
@@ -30,21 +58,19 @@
     width: 100%;
     object-fit: cover;
     border-radius:10px;
-    filter:brightness(80%);
-    
+    filter:brightness(80%); 
     
 }
 .main-pictures-container {
-    height:200px;
-    width:115px;
+    height:240px;
+    width:135px;
     overflow:hidden;
 }
-.move-pictures {
-    left:var(--move);
- }
+
 
 .main-pictures-container:nth-child(1) 
 img:hover{
+
     transform:scale(1);
     cursor:pointer;
  }
@@ -55,3 +81,187 @@ img:hover{
     cursor:pointer;
 }  
 
+.main-div-first {
+    width:50vw;
+    height:120px;
+    background-color: white;
+    margin-top:10px;
+    border-radius:10px; 
+    position: relative;
+    border: 1px  white;
+    box-shadow: 0 0 1px;
+}
+.main-div-first-layer { 
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    width:48vw;
+    margin:12px 15px;
+ 
+   
+}
+
+.main-div-first-layer-profile {
+    display:flex;
+    flex-direction: row;
+    height:40px;
+    padding:0px;
+    margin-bottom:10px;
+    gap:10px;
+}
+.main-div-first-layer-profile img {
+    width:40px;
+    
+    height:40px;
+    border-radius: 50px;
+}
+.whats-on-your-mind {
+
+    width:42vw;
+    background-color:rgba(197, 190, 190, 0.6);
+    border-radius: 30px;
+    height:40px;
+}
+.whats-on-your-mind p {
+    padding:10px;
+}
+.main-div-first-layer-video{
+    display:flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+ 
+
+}
+.main-div-live {
+    margin-top:5px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+    padding:7px;
+    font-size:1.5vw;
+    font-weight:500;
+    color:rgba(36, 35, 35, 0.8);
+}
+.main-div-live-container,.main-div-live-p {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.live {
+    vertical-align: -3px;
+    width:30px;
+    height:30px;
+}
+
+.main-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap:30px;
+}
+
+.main-div-live:hover {
+    background-color:rgba(134, 133, 133, 0.2);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+@media (min-width: 1134px) {
+    .sidebar-left-div {
+        display: flex;
+    }
+    .center-bar {
+        flex:1;
+    }
+
+    .center-bar,.main-div-first  {
+        width:50vw;
+    }
+    .set-of-pictures-hide {
+        width:50vw;
+    }
+    .whats-on-your-mind{
+        width:100%;
+    }
+    .main-div-first-layer{
+        width:95%;
+    }
+    .sidebar-right {
+        width:220px;
+    }
+
+    .main-grid {
+        display: flex;
+        gap:50px;
+    }
+    .main-div-live{
+        font-size:16px;
+    }
+}
+
+
+
+@media (min-width: 1370px){
+    .main-grid {
+        display: flex;
+        width:1300px;
+        justify-content:center;
+        align-items: center;
+        gap:20px;
+    }
+    .main-grid-grid {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .set-of-pictures-hide, .main-div-first,
+    .main-div-second-layer   {
+        width:700px;
+    } 
+    .sidebar-left {
+        width:270px;
+    }
+  
+
+
+}
+
+
+@media only screen and (max-width:900px) {
+    .side-bar-right-div {
+        display:none;
+    }
+    .set-of-pictures-hide {
+        width:580px;
+     }
+     .main-div-first {
+        width:450px;
+     }
+     .main-div-first-layer {
+        width:95%;
+     }
+     .whats-on-your-mind {
+        width:100%;
+     }
+     .main-div-live{
+        font-size:14px;
+    }
+    .main-div-second-layer {
+        width:450px;
+    }
+     
+        
+}
+
+@media only screen and (max-width:700px) {
+    .middle-section {
+        display:none;
+    }
+   
+    
+}

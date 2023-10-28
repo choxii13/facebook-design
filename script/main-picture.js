@@ -38,7 +38,6 @@ const savePictures = [{
 ];
 
 
-
 pictures = '';
 savePictures.forEach((picture) => {
 pictures += `<div class ="main-pictures-container">
@@ -51,10 +50,37 @@ pictures += `<div class ="main-pictures-container">
 
 document.querySelector('.js-set-of-pictures').innerHTML = pictures;
 
-let pixel = 0;
-function addPixel() {
-    const joshuas = document.querySelector('.js-set-of-pictures');
-        joshuas.classList.add('move-pictures');
-        pixel-=115;
-        joshuas.style.setProperty('--move', pixel + "px");
- }
+
+const moveContainer = document.querySelector('.js-set-of-pictures');
+const buttonRight = document.querySelector('.js-button-right');
+const buttonLeft = document.querySelector('.js-button-left');
+
+const button = {
+    right:0
+};
+buttonRight.addEventListener('click', () => {
+    button.right-=110;
+    moveContainer.style.setProperty('--move', button.right + "px");  
+    if (button.right <=110){
+        buttonLeft.classList.add('button-left-display'); 
+    } 
+    if (button.right ===-1210) {
+        buttonRight.classList.add('button-right-display');
+    }
+    console.log(button.right);
+  
+});
+
+
+buttonLeft.addEventListener('click', () => {
+    button.right+=110;   
+    moveContainer.style.setProperty('--move',   button.right+ "px"); 
+    if (button.right ===-1210) {
+        buttonRight.classList.add('button-right-display');
+    }
+    if (button.right === 0){
+        buttonRight.classList.remove('button-right-display');
+        buttonLeft.classList.remove('button-left-display'); 
+    } 
+    console.log(button.right);
+});
