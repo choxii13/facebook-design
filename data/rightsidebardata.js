@@ -12,5 +12,4 @@ rightSide.forEach((abs) => {
        </div>
        </div>`;
 });
-
 document.querySelector('.js-container').innerHTML = rightSideBar;

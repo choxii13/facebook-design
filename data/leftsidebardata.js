@@ -16,9 +16,3 @@ leftSide.forEach((picture) =>{
 
 document.querySelector('.js-sidebar-left').innerHTML  = leftSideBar;
 
-// seeMore = document.querySelector('.sidebar-left-container:nth-child(6)');
-// seeMores = document.querySelectorAll('.sidebar-left-container');
-//  eyy = document.querySelector('.sidebar-left-container:nth-last-child(7)');
-// seeMore.addEventListener('click', () => {
-// //     eyy.classList.add('ehem');
-// // });
