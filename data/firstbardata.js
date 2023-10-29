@@ -9,6 +9,7 @@ firstBar.forEach((picture) => {
 });
 document.querySelector('.js-set-of-pictures').innerHTML =  firstSideBar;
 
+
 const moveContainer = document.querySelector('.js-set-of-pictures');
 const buttonRight = document.querySelector('.js-button-right');
 const buttonLeft = document.querySelector('.js-button-left');

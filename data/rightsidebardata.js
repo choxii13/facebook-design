@@ -1,9 +1,9 @@
-import {rightSide} from "../container/rightsidebar.js";
+import {rightSide} from "../container/rightsidebarcontainer.js";
 
-export let rightSideBars = '';
+export let rightSideBar = '';
 rightSide.forEach((abs) => {
 
-    rightSideBars += `   <div class = "contact-name">
+    rightSideBar += `   <div class = "contact-name">
     <div class = "contact-name-images">
        <img src = "${abs.profile1}">
        </div>
@@ -13,4 +13,4 @@ rightSide.forEach((abs) => {
        </div>`;
 });
 
-document.querySelector('.js-container').innerHTML = rightSideBars;
+document.querySelector('.js-container').innerHTML = rightSideBar;
