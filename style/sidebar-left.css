@@ -60,8 +60,14 @@
     border-radius: 30px;
 }
 
-.sidebar-left-container:nth-last-child(-n+18) {
-    display:none;
+/* .sidebar-left-container:nth-last-child(-n+18) {
+    opacity: 0;
+} */
+.sidebar-left-container:nth-last-child(7) {
+    opacity: 0;
+}
+.ehem {
+    opacity: 1;
 }
 
 .sidebar-left-container:hover {

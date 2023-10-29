@@ -41,5 +41,4 @@ side.forEach((abs) => {
        </div>
        </div>`;
 });
-console.log(sideBall);
 document.querySelector('.js-container').innerHTML = sideBall;

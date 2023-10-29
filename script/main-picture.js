@@ -67,7 +67,6 @@ buttonRight.addEventListener('click', () => {
     if (button.right ===-1210) {
         buttonRight.classList.add('button-right-display');
     }
-    console.log(button.right);
   
 });
 
@@ -82,5 +81,5 @@ buttonLeft.addEventListener('click', () => {
         buttonRight.classList.remove('button-right-display');
         buttonLeft.classList.remove('button-left-display'); 
     } 
-    console.log(button.right);
+
 });

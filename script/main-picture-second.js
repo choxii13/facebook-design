@@ -1,3 +1,5 @@
+import {sideBar} from '../data/left-side-bar.js';
+
 const seconds = [{
     profile:'images/joshua.jpg',
     name:'Joshua Teoxon',
@@ -156,3 +158,33 @@ seconds.forEach((second) => {
 
 
 document.querySelector('.js-main-div-second-layer').innerHTML =   secondPicture ;
+
+
+
+//comment
+
+leftSideBar = '';
+sideBar.forEach((picture) =>{
+    leftSideBar += `
+<div class = "sidebar-left-container"> 
+    <div class = "sidebar-left-image-container">
+    <img src = "${picture.image}" class = "sidebar-left-image"> 
+    </div>
+    <div class = "sidebar-left-image-container-p">
+    <p class = "sidebar-left-p">${picture.name}</p>
+    </div>
+    </div>
+`
+    ;
+});
+
+
+document.querySelector('.js-sidebar-left').innerHTML = leftSideBar;
+
+
+seeMore = document.querySelector('.sidebar-left-container:nth-child(6)');
+seeMores = document.querySelectorAll('.sidebar-left-container');
+eyy = document.querySelector('.sidebar-left-container:nth-last-child(7)');
+seeMore.addEventListener('click', () => {
+    eyy.classList.add('ehem');
+});
