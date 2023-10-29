@@ -1,4 +1,4 @@
-export const sideBar = [{
+export const leftSide = [{
     image:"images/joshua.jpg",
     name:"Joshua Teoxon"
 },

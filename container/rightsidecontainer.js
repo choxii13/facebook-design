@@ -1,4 +1,4 @@
-const side = [{
+export const rightSide = [{
     profile1: 'images/joshua.jpg',
     name1: 'Joshua Teoxon'
 },
@@ -27,18 +27,3 @@ const side = [{
     name1: 'Vincent Julia'
 },
 ];
-
-sideBall= '';
-
-side.forEach((abs) => {
-
-    sideBall += `   <div class = "contact-name">
-    <div class = "contact-name-images">
-       <img src = "${abs.profile1}">
-       </div>
-       <div class = "contact-name-p">
-       <p>${abs.name1}</p>
-       </div>
-       </div>`;
-});
-document.querySelector('.js-container').innerHTML = sideBall;
