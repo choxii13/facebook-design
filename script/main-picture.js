@@ -1,4 +1,4 @@
 import {firstSideBar} from '../data/firstbardata.js';
 import {leftSideBar} from '../data/leftsidebardata.js';
-import {rightSideBar} from '../data/rightsidebardata.js';
+import {rightSideBars} from '../data/right.js';
 import {secondPicture} from '../data/secondbardata.js';
