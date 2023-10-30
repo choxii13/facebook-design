@@ -1,6 +1,6 @@
 .sidebar-left-div {
     display: none;  
-    width:400px;
+    width:20vw;
     position:relative;
 }
 .sidebar-left {
@@ -13,7 +13,11 @@
     z-index:200;
     margin-left:5px;
     padding-top:20px;
-    width:24vw;
+    width:25vw;
+    overflow-y: scroll;
+}
+.sidebar-left::-webkit-scrollbar {
+    display: none;
 }
 
 .sidebar-left-container {
