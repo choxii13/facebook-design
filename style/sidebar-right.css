@@ -29,20 +29,22 @@ width:26vw;
 }
 .side-bar-right-container-container > 
 p:nth-child(1) {
-    
     margin-left:10px;
 } 
+
 .sidebar-right-container {
     display:flex;
     flex-direction: row;
-    padding:7px;
     gap:10px;
+    padding:5px;
+
 }
 
 
 .sidebar-right-container-image {
     height:100px;
     width:100px; 
+    overflow: hidden;
    
 } 
 .sidebar-right-container-image img {
@@ -50,14 +52,19 @@ p:nth-child(1) {
     width: 100%;
     border-radius: 10px;
     object-fit: cover;
-    
 }
+
 
 .sidebar-right-container-p {
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    width:100%; 
+
 } 
+.sidebar-right-container-p p:nth-child(2) {
+    font-size: 10px;
+}
 .your-pages-and-profiles-container {
     display: flex;
     flex-direction: column;

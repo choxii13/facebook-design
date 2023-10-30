@@ -3,11 +3,24 @@ import {firstBar} from '../container/firstbarcontainer.js';
 export let firstSideBar = '';
 firstBar.forEach((picture) => {
     firstSideBar += `<div class ="main-pictures-container">
+<img src = "${picture.images}" class = "main-pic">
+    
+<div class ="main-pictures-absolute">
 <img src = "${picture.images}">
 </div>
+<div class ="main-pictures-name-absolute">
+<p>${picture.name}</p>
+<div class = "plus-plus">
+<img src = "images/plus1.svg">
+</div>
+</div>
+</div>
+
 `;
 });
 document.querySelector('.js-set-of-pictures').innerHTML =  firstSideBar;
+
+
 
 
 const moveContainer = document.querySelector('.js-set-of-pictures');

@@ -65,24 +65,114 @@ margin-left:85px;
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius:10px;
-    filter:brightness(80%); 
+
     
 }
 .main-pictures-container {
     height:240px;
     width:135px;
-    overflow:hidden;
+    position: relative;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.plus-plus {
+    position: absolute;
+    height:40px;
+    width:40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding:5px;
+    z-index: 10;
+    bottom:30px;
+    left:22px;
+
+}
+.plus-plus img {
+   height:100%;
+   width:100%;
+   object-fit: cover;
+}
+
+.main-pictures-container:nth-last-child(-n+11) > div:nth-child(3)  div {
+display: none;
 }
 
 
-.main-pictures-container:nth-child(1) 
-img:hover{
+.main-pictures-container:nth-child(1) .main-pic{
+    height:80%;
 
+}
+.main-pictures-container:nth-child(1) {
+    border:1.3px solid rgba(78, 76, 76, 0.7);
+}
+
+.main-pictures-container:nth-child(1) > 
+div:nth-child(3){
+    left:22px;
+}
+.main-pictures-container:nth-child(1) > 
+div:nth-child(3) p {
+    color:black;
+    z-index:10;
+    font-weight: 700;
+}
+
+.main-pictures-container img {
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.main-pictures-absolute {
+    position: absolute;
+    left:10px;
+    top:10px;
+    background-color: white;
+    border:1px solid blue;
+    height:40px;
+    width:40px;
+    z-index:10;
+    border-radius:100px;
+}
+
+.main-pictures-absolute img {
+    padding:2px;
+    object-fit: cover;
+    width:100%; 
+    height:100%;
+    border-radius:100px;
+    z-index:1000;
+}
+
+.main-pictures-name-absolute {
+    position: absolute;
+    bottom:10px;
+    left:12px;
+    z-index:10;
+}
+
+.main-pictures-name-absolute p {
+   color: white;
+   font-size: 14px;
+   font-family: "Segoe UI Historic";
+   font-weight:600;
+   letter-spacing: 1.2px;
+}
+.main-pictures-container:nth-child(1):hover{
     transform:scale(1);
     cursor:pointer;
+    filter: brightness(90%);
  }
- 
+ .main-pictures-container:hover {
+    filter: brightness(90%);
+ }
 
  .set-of-pictures img:hover {
     transform:scale(1.01);
