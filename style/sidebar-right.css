@@ -35,23 +35,28 @@ p:nth-child(1) {
 .sidebar-right-container {
     display:flex;
     flex-direction: row;
-    gap:10px;
-    padding:5px;
 
+    align-items: center;
+    justify-content: center;
+   
 }
 
 
 .sidebar-right-container-image {
     height:100px;
-    width:100px; 
-    overflow: hidden;
+    width:140px; 
+    padding:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
    
 } 
 .sidebar-right-container-image img {
     height: 100%;
     width: 100%;
+    object-fit:cover;
     border-radius: 10px;
-    object-fit: cover;
 }
 
 
