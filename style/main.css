@@ -4,8 +4,7 @@
  justify-content: center;
  flex-direction: column;
  align-items: center;
-flex:3;
-gap:10px;
+ gap:10px;
 }
 
 .set-of-pictures-hide {
@@ -117,15 +116,25 @@ img:hover{
     border-radius: 50px;
 }
 .whats-on-your-mind {
-
     width:42vw;
-    background-color:rgba(197, 190, 190, 0.6);
+    background-color:rgba(197, 190, 190, 0.3);
     border-radius: 30px;
     height:40px;
 }
+
+.whats-on-your-mind:hover {
+    background-color: rgba(216, 208, 208, 0.7); 
+    cursor: pointer;
+}
+.main-div-first-layer-profile img:hover {
+    cursor: pointer;
+    filter: brightness(95%);
+}
+
 .whats-on-your-mind p {
     padding:10px;
 }
+
 .main-div-first-layer-video{
     display:flex;
     flex-direction: row;
@@ -175,15 +184,13 @@ img:hover{
     .sidebar-left-div {
         display: flex;
     }
-    .center-bar {
-        flex:1;
-    }
+ 
 
-    .center-bar,.main-div-first  {
-        width:50vw;
+    .center-bar,.main-div-first, .main-div-second-layer  {
+        width:45vw;
     }
     .set-of-pictures-hide {
-        width:50vw;
+        width:45vw;
     }
     .whats-on-your-mind{
         width:100%;
@@ -191,7 +198,6 @@ img:hover{
     .main-div-first-layer{
         width:95%;
     }
- 
 
     .main-grid {
         display: flex;

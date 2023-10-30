@@ -14,5 +14,19 @@ leftSide.forEach((picture) =>{
 `;
 });
 
+
 document.querySelector('.js-sidebar-left').innerHTML  = leftSideBar;
+
+const see = document.querySelector('.sidebar-left-container:nth-child(7)');
+see.classList.add("ehem");
+const open = document.querySelector('.sidebar-left-container:nth-child(20)');
+ see.addEventListener('click', () => {
+    see.classList.remove("ehem");
+    see.classList.add('sidebar-left-none');
+ });
+
+ open.addEventListener('click', () => {
+    see.classList.add("ehem");
+    see.classList.remove('sidebar-left-none')
+ });
 

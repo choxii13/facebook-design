@@ -1,7 +1,7 @@
 
 .side-bar-right-div{
 position:relative;
-flex:1;
+width:30vw;  
 }
 .sidebar-right {
     display:flex;
@@ -15,8 +15,8 @@ flex:1;
     gap:5px;
     color:rgba(50, 50, 51, 0.9);
     font-weight: 550;
-    overflow-y:scroll;
-    width:23vw;    
+    width:27vw;   
+ 
 }
 
 
@@ -120,17 +120,34 @@ hr {
 
 
 .birthday-container {
-    margin-top: 10px;
     display:flex;
     flex-direction: row;
+    padding:10px;
+    border-radius: 10px;
+    gap:10px;
 }
-.birthday-container img {
-    margin:5px 0 0 10px;
+.birthday-container:hover {
+    background-color: rgba(216, 208, 208, 0.3); 
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.birthday-container-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.birthday-container-image img {
+    vertical-align: 10px;
     height:25px;
     width: 25px;
 }
+.birthday-container-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .birthday-container p {
-    margin-left:10px;
     font-size: 13px;
 }
 

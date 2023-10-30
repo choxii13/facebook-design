@@ -23,8 +23,8 @@ export const leftSide = [{
     name:"Marketplace"
 },
 {
-    image:"images/feeds.png",
-    name:"Feeds"
+    image:"images/circle-down.svg",
+    name:"See More"
 },
 {
     image:"images/AdCenter.png",
@@ -39,61 +39,45 @@ export const leftSide = [{
     name:"Blood Donation"
 },
 {
-    image:"images/Aamon.jpg",
-    name:"aamsadsad asd sadsa "
+    image:"images/feeds.png",
+    name:"Feeds"
 },
 {
-    image:"images/Aamon.jpg",
-    name:"aamon"
+    image:"images/pages.png",
+    name:"Pages"
 },
 {
-    image:"images/Aamon.jpg",
-    name:"aamon"
+    image:"images/Climate.png",
+    name:"Climate Science Center"
 },
 {
-    image:"images/Aamon.jpg",
-    name:"aamon"
-}
-,
-{
-    image:"images/Aamon.jpg",
-    name:"aamon"
+    image:"images/Events.png",
+    name:"Events"
 },
 {
-    image:"images/Aamon.jpg",
-    name:"aamon"
+    image:"images/fund.png",
+    name:"Fundraisers"
 },
 {
-    image:"images/Aamon.jpg",
-    name:"aamon"
+    image:"images/meta.png",
+    name:"Meta Business Suite"
 },
 {
-    image:"images/Aamon.jpg",
-    name:"aamon"
+    image:"images/wallet.png",
+    name:"Orders and Payments"
 },
 {
-    image:"images/Aamon.jpg",
-    name:"aamon"
+    image:"images/Playgame.png",
+    name:"Play Games"
 },
 {
-    image:"images/Aamon.jpg",
-    name:"aamon"
+    image:"images/AdActivity.png",
+    name:"Recent Ad Activity"
 },
+
 {
-    image:"images/Aamon.jpg",
-    name:"aamon"
-},
-{
-    image:"images/Aamon.jpg",
-    name:"aamon"
-},
-{
-    image:"images/Aamon.jpg",
-    name:"aamon"
-},
-{
-    image:"images/Aamon.jpg",
-    name:"aamon"
+    image:"images/circle-up.svg",
+    name:"See Less"
 }
 ];
 
