@@ -10,8 +10,9 @@
     gap:10px;
     border-radius: 10px;
     margin-bottom:15px;
-
 }
+
+
 .main-div-second-layer-profile {
     display: flex;
     flex-direction: row;
@@ -19,8 +20,9 @@
 }
 .main-div-second-layer-profile-aa {
     display: flex;
-    gap:15px;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .main-div-second-layer-profile-a {
     display: flex;
@@ -47,11 +49,7 @@
     height:40px;
     border-radius: 50px;
 }
-.main-div-second-layer-profile-aa img {
-    width:15px;
-    height:15px;
-    margin-top: 10px;
-}
+
 
 .main-div-second-layer-profile-c img {
     width:13px;
@@ -63,9 +61,8 @@
 }
 
 .main-div-second-layer-picture {
-    height:100vh;
-    width:60vw;
-    border: 1px solid rgb(235, 226, 226);
+    height:100%;
+    width:100%;
     border-radius: 15px;
 }
 .main-div-second-layer-picture img {
@@ -164,6 +161,8 @@
     justify-content: space-around;
     width:90%;
     position: relative;
+    height:35px;
+    margin-top:-8px;
 }
 
 .like-comment-share-container {
@@ -187,11 +186,12 @@
 }
 .like-comment-profile-container {
     position: absolute;
-    top:2px;
-    right:-40px;
+    top:5px;
+    right:-50px;
     display: flex;
     flex-direction: row;
     gap:3px;
+    padding:7px;
 }
 .up {
     height:20px;
@@ -203,3 +203,45 @@
     height:10px;
     width:10px;
 }
+.like {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width:200px;
+    padding:20px;
+}
+.like:hover, .like-comment-profile-container:hover {
+    background-color: rgba(216, 208, 208, 0.3); 
+       border-radius: 5px;
+       cursor: pointer;
+       
+}
+.main-div-second-layer-heart:hover,
+.main-div-second-layer-comment:hover, 
+.main-div-second-layer-share:hover, 
+.name-josh:hover,
+.hours:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.profile-image:hover {
+    cursor: pointer;
+}
+.dot-dot-dot, .ekis-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    widtH:35px;
+    height:35px;
+    padding:10px;
+    border-radius: 20px;
+}
+.main-div-second-layer-profile-aa img {
+    width:100%;
+    height:100%;
+}
+.dot-dot-dot:hover, .ekis-close:hover  {
+    background-color: rgba(216, 208, 208, 0.3); 
+       cursor: pointer;
+} 

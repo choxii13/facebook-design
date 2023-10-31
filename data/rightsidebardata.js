@@ -1,14 +1,14 @@
-import {rightSide} from "../container/rightsidebarcontainer.js";
+import {mainContent} from "../container/maincontainer.js";
 
 export let rightSideBar = '';
-rightSide.forEach((abs) => {
+mainContent.forEach((mainRight) => {
 
     rightSideBar += `   <div class = "contact-name">
     <div class = "contact-name-images">
-       <img src = "${abs.profile1}">
+       <img src = "${mainRight.profile}">
        </div>
        <div class = "contact-name-p">
-       <p>${abs.name1}</p>
+       <p>${mainRight.name}</p>
        </div>
        </div>`;
 });

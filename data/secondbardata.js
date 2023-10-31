@@ -1,50 +1,53 @@
-import {secondBar} from "../container/secondbarcontainer.js"; 
+import {mainContent} from "../container/maincontainer.js";
 
 export let secondPicture = '';
-secondBar.forEach((second) => {
+mainContent.forEach((main) => {
    secondPicture +=
     `     <div class = "main-div-second-layer">
     <div class = "main-div-second-layer-profile">
         <div class = "main-div-second-layer-profile-a">
-            <img src="${second.profile}">
+            <img src="${main.profile}" class = "profile-image">
         <div class="main-div-second-layer-profile-b"> 
-            <p class= "name-josh"> ${second.name}</p>
+            <p class= "name-josh"> ${main.name}</p>
         <div class="main-div-second-layer-profile-c">
-            <p>${second.hours}</p>
+            <p class = "hours">${main.hours}</p>
             <p>.</p>
             <img src ="images/friendss.png">
         </div>
          
-        </div>
-        
+        </div> 
     </div>
  <div class = "main-div-second-layer-profile-aa">
+ <div class = "dot-dot-dot">
         <img src = "images/3-dot.png">
+        </div>
+        <div class = "ekis-close"> 
         <img src = "images/close.png">
+        </div>
     </div>
  
 </div>
-<p> ${second.post}</p>
+<p> ${main.post}</p>
 <div class = "main-div-second-layer-picture-div"> 
 <div class = "main-div-second-layer-picture">
-<img src="${second.image}"> 
+<img src="${main.image}"> 
 </div>
 </div>
 <div class = "main-div-second-layer-container">
     <div class  = "main-div-second-layer-heart">
     <img src = "images/heart.png">
-    <p> ${second.like}</p>
+    <p> ${main.like}</p>
     <div class = "like-like">
         <img src = "images/like.png">
     </div>
     </div>
 <div class = "main-div-second-layer-comment-share">
     <div class = "main-div-second-layer-comment">
-        <p>${second.comment}</p>
+        <p>${main.comment}</p>
         <img src = "images/comments.png">
     </div>
     <div class = "main-div-second-layer-share">
-        <p>${second.share}</p>
+        <p>${main.share}</p>
         <img src = "images/share.png">
     </div>
 </div>
@@ -73,7 +76,7 @@ secondBar.forEach((second) => {
     </div>
 
     <div class = "like-comment-profile-container">
-        <img src = "${second.profile}" class ="up">
+        <img src = "${main.profile}" class ="up">
         <img src = "images/down.png" class = "down">
     </div> 
 </div>
@@ -81,3 +84,5 @@ secondBar.forEach((second) => {
 });
 
 document.querySelector('.js-main-div-second-layer').innerHTML =   secondPicture ;
+document.querySelector(`.main-pictures-container:nth-child(1) > 
+div:nth-child(3) p`).innerHTML = "Create Story";
