@@ -142,6 +142,8 @@ align-items: center;
 }
 .right-section-container:hover {
     background-color: rgb(59, 59, 59, 0.2);
+    cursor: pointer;
+
 }
 .right-section-container:hover  .right-section-container-p{
     display:flex;

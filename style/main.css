@@ -167,7 +167,6 @@ div:nth-child(3) p {
 .main-pictures-name-absolute p {
    color: white;
    font-size: 13px;
-   font-stretch:ultra-expanded;
    font-family: "Segoe UI Historic";
    font-weight:600;
   
@@ -282,6 +281,9 @@ div:nth-child(3) p {
     .sidebar-left-div {
         display: flex;
     }
+    .middle-section {
+        margin-left:110px;
+    }
     
     .center-bar,.main-div-first, .main-div-second-layer  {
         width:43vw;
@@ -318,7 +320,7 @@ div:nth-child(3) p {
         padding:10px;
     }
     .middle-section {
-        margin-right:120px;
+        margin-right:150px;
     }
    
 }

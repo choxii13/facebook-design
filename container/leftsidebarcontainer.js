@@ -1,6 +1,6 @@
 export const leftSide = [{
     image:"images/joshua.jpg",
-    name:"Joshua Teoxon"
+    name:"Joshua ZXC"
 },
 {
     image:"images/friends.png",
@@ -79,5 +79,6 @@ export const leftSide = [{
     image:"images/circle-up.svg",
     name:"See Less"
 }
+
 ];
 
