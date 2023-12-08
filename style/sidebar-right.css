@@ -1,273 +1,252 @@
-
-.side-bar-right-div{
-position:relative;
-width:26vw;  
+.side-bar-right-div {
+  position: relative;
+  width: 26vw;
 }
 .sidebar-right {
-    display:flex;
-    flex-direction: column;
-    position:fixed;
-    margin-top:55px;
-    z-index:200;
-    top:0;
-    bottom:0;
-    padding-top:20px;
-    gap:5px;
-    color:rgba(50, 50, 51, 0.9);
-    font-weight: 550;
-    width:26vw;   
-    overflow-y: scroll;
- 
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-top: 55px;
+  z-index: 200;
+  top: 0;
+  bottom: 0;
+  padding-top: 20px;
+  gap: 5px;
+  color: rgba(50, 50, 51, 0.9);
+  font-weight: 550;
+  width: 26vw;
+  overflow-y: scroll;
 }
 .sidebar-right::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
-.side-bar-right-container-container  {
-    display: flex;
-    flex-direction: column;
+.side-bar-right-container-container {
+  display: flex;
+  flex-direction: column;
 }
-.side-bar-right-container-container > 
-p:nth-child(1) {
-    margin-left:10px;
-} 
+.side-bar-right-container-container > p:nth-child(1) {
+  margin-left: 10px;
+}
 
 .sidebar-right-container {
-    display:flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    align-items: center;
-    justify-content: center;
-   
+  align-items: center;
+  justify-content: center;
 }
-
 
 .sidebar-right-container-image {
-    height:100px;
-    width:140px; 
-    padding:10px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    
-    
-   
-} 
-.sidebar-right-container-image img {
-    height: 100%;
-    width: 100%;
-    object-fit:cover;
-    border-radius: 10px;
+  height: 100px;
+  width: 140px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.sidebar-right-container-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
 .sidebar-right-container-p {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width:100%; 
-
-} 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
 .sidebar-right-container-p p:nth-child(2) {
-    font-size: 10px;
+  font-size: 10px;
 }
 .your-pages-and-profiles-container {
-    display: flex;
-    flex-direction: column;
-    gap:5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .your-pages-and-profiles {
-    height:40px;
-    align-items: center;
-    display:flex;
-    justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
-
 
 .three-dots {
-    height:15px;
-    height:15px;
-    object-fit: cover;
-} 
-
+  height: 15px;
+  height: 15px;
+  object-fit: cover;
+}
 
 .brave-plays-container {
-    display:flex;
-    flex-direction: row;
-    color: black;
-    font-weight: 550;
-    font-size: 14px;
-    padding:10px;
-    gap:10px;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  font-weight: 550;
+  font-size: 14px;
+  padding: 10px;
+  gap: 10px;
 }
-.brave-plays-container-image, 
+.brave-plays-container-image,
 .brave-plays-container-p {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-   
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 .brave-plays-container img {
-    height: 35px;
-    width: 35px;
-    border-radius: 20px; 
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
 }
 
 .switch-container {
-    display:flex;
-    flex-direction: row;
-    font-size: 12px;
-    gap:10px;
-    margin-left:10px;
-    padding:9px;
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  gap: 10px;
+  margin-left: 10px;
+  padding: 9px;
 }
 
-
-.switch-container-image, 
+.switch-container-image,
 .switch-container-p {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .switch-container img {
-    height:18px;
-    width: 18px;
+  height: 18px;
+  width: 18px;
 }
 hr {
-    border-color:rgba(50, 50, 51, 0.1);
+  border-color: rgba(50, 50, 51, 0.1);
 }
-
 
 .birthday-container {
-    display:flex;
-    flex-direction: row;
-    padding:10px;
-    border-radius: 10px;
-    gap:10px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
 }
 .birthday-container:hover {
-    background-color: rgba(216, 208, 208, 0.3); 
-   border-radius: 10px;
-   cursor: pointer;
+  background-color: rgba(216, 208, 208, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .birthday-container-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .birthday-container-image img {
-    vertical-align: 10px;
-    height:25px;
-    width: 25px;
+  vertical-align: 10px;
+  height: 25px;
+  width: 25px;
 }
 .birthday-container-p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .birthday-container p {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .contacts-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
 
 .contacts-container-contacts {
-    display: flex;
-    align-items: center;
- 
+  display: flex;
+  align-items: center;
 }
-.contact-three{
-    width:15px;
-    height:15px;
+.contact-three {
+  width: 15px;
+  height: 15px;
 }
 .contact-search {
-    width:13px;
-    height:13px;
+  width: 13px;
+  height: 13px;
 }
 .contacts-contain {
-    display: flex;
-    flex-direction: row;
-    gap:5px;
-   
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 .contact-name-container {
-    display: flex;
-    flex-direction: column;
-    gap:20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .contact-name {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap:10px;
-    padding:5px;
-    border-radius: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 5px;
+  border-radius: 10px;
 }
-.contact-name-images, .contact-name-p {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contact-name-images,
+.contact-name-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contact-name-images {
-    width:40px;
-    height:40px;
-
+  width: 40px;
+  height: 40px;
 }
-.contact-name-images  img {
-    height: 100%;
-    width:100%;
-    object-fit: cover;
-    border-radius: 20px;
-    
+.contact-name-images img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
 .contact-name p {
-    font-size:15px;
-    font-weight: 500;
-    color: black;
-    object-fit: cover;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  object-fit: cover;
 }
 
-.sidebar-right-container:hover, .brave-plays-container:hover, .switch-container:hover {
-    background-color: rgba(216, 208, 208, 0.3); 
-   border-radius: 10px;
-   cursor: pointer;
-   }
+.sidebar-right-container:hover,
+.brave-plays-container:hover,
+.switch-container:hover {
+  background-color: rgba(216, 208, 208, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+}
 
+.contact-images {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
- .contact-images {
-    height:30px;
-    width:30px;
-    border-radius: 20px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
- }
-
- .contact-images:hover,  
- .your-pages-and-profiles-images:hover {
-    background-color:rgba(134, 133, 133, 0.2);
- }
- .your-pages-and-profiles-images {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    height:30px;
-    width:30px;
-    border-radius: 20px;
- }
- .contact-name:hover {
-    background-color:rgba(134, 133, 133, 0.2);
-    cursor: pointer;
- }
+.contact-images:hover,
+.your-pages-and-profiles-images:hover {
+  background-color: rgba(134, 133, 133, 0.2);
+}
+.your-pages-and-profiles-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+.contact-name:hover {
+  background-color: rgba(134, 133, 133, 0.2);
+  cursor: pointer;
+}

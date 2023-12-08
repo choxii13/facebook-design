@@ -1,8 +1,8 @@
-import {mainContent} from "../container/maincontainer.js"; 
+import { mainContent } from "../container/maincontainer.js";
 
-export let firstSideBar = '';
+export let firstSideBar = "";
 mainContent.forEach((main1) => {
-    firstSideBar += `<div class ="main-pictures-container">
+  firstSideBar += `<div class ="main-pictures-container">
 <img src = "${main1.image}" class = "main-pic">
     
 <div class ="main-pictures-absolute">
@@ -18,39 +18,34 @@ mainContent.forEach((main1) => {
 
 `;
 });
-document.querySelector('.js-set-of-pictures').innerHTML =  firstSideBar;
+document.querySelector(".js-set-of-pictures").innerHTML = firstSideBar;
 
-
-
-const moveContainer = document.querySelector('.js-set-of-pictures');
-const buttonRight = document.querySelector('.js-button-right');
-const buttonLeft = document.querySelector('.js-button-left');
+const moveContainer = document.querySelector(".js-set-of-pictures");
+const buttonRight = document.querySelector(".js-button-right");
+const buttonLeft = document.querySelector(".js-button-left");
 const button = {
-    right:0
+  right: 0,
 };
 
-buttonRight.addEventListener('click', () => {
-    button.right-=110;
-    moveContainer.style.setProperty('--move', button.right + "px");  
-    if (button.right <=110){
-        buttonLeft.classList.add('button-left-display'); 
-    } 
-    if (button.right ===-1870) {
-        buttonRight.classList.add('button-right-display');
-    }
-
+buttonRight.addEventListener("click", () => {
+  button.right -= 110;
+  moveContainer.style.setProperty("--move", button.right + "px");
+  if (button.right <= 110) {
+    buttonLeft.classList.add("button-left-display");
+  }
+  if (button.right === -1870) {
+    buttonRight.classList.add("button-right-display");
+  }
 });
 
-
-buttonLeft.addEventListener('click', () => {
-    button.right+=110;   
-    moveContainer.style.setProperty('--move',   button.right+ "px"); 
-    if (button.right ===-1210) {
-        buttonRight.classList.add('button-right-display');
-    }
-    if (button.right === 0){
-        buttonRight.classList.remove('button-right-display');
-        buttonLeft.classList.remove('button-left-display'); 
-    } 
-
+buttonLeft.addEventListener("click", () => {
+  button.right += 110;
+  moveContainer.style.setProperty("--move", button.right + "px");
+  if (button.right === -1210) {
+    buttonRight.classList.add("button-right-display");
+  }
+  if (button.right === 0) {
+    buttonRight.classList.remove("button-right-display");
+    buttonLeft.classList.remove("button-left-display");
+  }
 });

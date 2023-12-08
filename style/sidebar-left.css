@@ -1,154 +1,141 @@
 .sidebar-left-div {
-    display: none;  
-    width:20vw;
-    position:relative;
+  display: none;
+  width: 20vw;
+  position: relative;
 }
 .sidebar-left {
-    display:flex;
-    position: fixed;
-    margin-top:55px;
-    top:0;
-    bottom:0;
-    flex-direction: column;
-    z-index:200;
-    margin-left:5px;
-    padding-top:20px;
-    width:25vw;
-    overflow-y: scroll;
+  display: flex;
+  position: fixed;
+  margin-top: 55px;
+  top: 0;
+  bottom: 0;
+  flex-direction: column;
+  z-index: 200;
+  margin-left: 5px;
+  padding-top: 20px;
+  width: 25vw;
+  overflow-y: scroll;
 }
 .sidebar-left::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .sidebar-left-container {
-    gap:15px;
-    display:flex;
-    flex-direction: row; 
-    align-items: center;
-    padding:10px;
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
 }
 
-.sidebar-left-image-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:37px;
-    width:37px;
+.sidebar-left-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  width: 37px;
 }
 .sidebar-left-image {
-    height:100%;
-    width:100%;
-    vertical-align: -20px;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  vertical-align: -20px;
+  object-fit: cover;
 }
 
-
 .sidebar-left-image-container-p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-   
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar-left-p {
-    font-size: 15px;
-    font-weight:600;
-    letter-spacing: 1px;
-    font-family: "Segoe UI Historic";
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-family: "Segoe UI Historic";
 }
 
-
-
-.sidebar-left-container:nth-child(1)
- .sidebar-left-image-container img{
-    border-radius: 30px;
+.sidebar-left-container:nth-child(1) .sidebar-left-image-container img {
+  border-radius: 30px;
 }
 
-
-
-.ehem ~ .sidebar-left-container:nth-last-child(-n+13) {
-    display:none;
+.ehem ~ .sidebar-left-container:nth-last-child(-n + 13) {
+  display: none;
 }
 
 .sidebar-left-none {
-    display:none;
+  display: none;
 }
 
 .sidebar-left-container:hover {
- background-color: rgba(216, 208, 208, 0.3); 
-border-radius: 10px;
-cursor: pointer;
+  background-color: rgba(216, 208, 208, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .shortcut-image-container-p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-   
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 .shortcut {
-    display: flex;
-    flex-direction: column;
-    gap:3px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
 }
 .shortcut-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding:0px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
 }
 .shortcuts-p {
-    font-weight: 500;
-    color: rgb(105, 104, 104);
+  font-weight: 500;
+  color: rgb(105, 104, 104);
 }
 
 .shortcut-image {
-    gap:15px;
-    display:flex;
-    flex-direction: row; 
-    align-items: center;
-    padding:10px;
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
 }
-.shortcuts > div:nth-child(2) 
-.shortcut-image-container img {
-    border-radius: 30px;
+.shortcuts > div:nth-child(2) .shortcut-image-container img {
+  border-radius: 30px;
 }
 .shortcut-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:37px;
-    width:37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  width: 37px;
 }
 .shortcut-left-image {
-    height:100%;
-    width:100%;
-    object-fit:cover;
-    border-radius:10px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 .shortcut-edit {
-    padding:10px;
-    opacity: 0;
-    color:blue;
+  padding: 10px;
+  opacity: 0;
+  color: blue;
 }
 .shortcut-edit:hover {
-    background-color: rgba(216, 208, 208, 0.3);
-    cursor: pointer;
-    opacity: 1;
+  background-color: rgba(216, 208, 208, 0.3);
+  cursor: pointer;
+  opacity: 1;
 }
 .hra {
-    margin: 5px 10px;
-
+  margin: 5px 10px;
 }
 
 .shortcut-image:hover {
-    background-color: rgba(216, 208, 208, 0.3); 
-    border-radius: 10px;
-    cursor: pointer;
+  background-color: rgba(216, 208, 208, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
 }

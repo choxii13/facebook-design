@@ -1,9 +1,8 @@
-import {mainContent} from "../container/maincontainer.js";
+import { mainContent } from "../container/maincontainer.js";
 
-export let rightSideBar = '';
+export let rightSideBar = "";
 mainContent.forEach((mainRight) => {
-
-    rightSideBar += `   <div class = "contact-name">
+  rightSideBar += `   <div class = "contact-name">
     <div class = "contact-name-images">
        <img src = "${mainRight.profile}">
        </div>
@@ -12,4 +11,4 @@ mainContent.forEach((mainRight) => {
        </div>
        </div>`;
 });
-document.querySelector('.js-container').innerHTML = rightSideBar;
+document.querySelector(".js-container").innerHTML = rightSideBar;

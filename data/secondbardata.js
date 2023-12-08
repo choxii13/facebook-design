@@ -1,9 +1,8 @@
-import {mainContent} from "../container/maincontainer.js";
+import { mainContent } from "../container/maincontainer.js";
 
-export let secondPicture = '';
+export let secondPicture = "";
 mainContent.forEach((main) => {
-   secondPicture +=
-    `     <div class = "main-div-second-layer">
+  secondPicture += `     <div class = "main-div-second-layer">
     <div class = "main-div-second-layer-profile">
         <div class = "main-div-second-layer-profile-a">
             <img src="${main.profile}" class = "profile-image">
@@ -83,6 +82,6 @@ mainContent.forEach((main) => {
 </div>`;
 });
 
-document.querySelector('.js-main-div-second-layer').innerHTML =   secondPicture ;
+document.querySelector(".js-main-div-second-layer").innerHTML = secondPicture;
 document.querySelector(`.main-pictures-container:nth-child(1) > 
 div:nth-child(3) p`).innerHTML = "Create Story";
