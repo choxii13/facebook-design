@@ -5,7 +5,7 @@ leftSide.forEach((picture) => {
   leftSideBar += `
 <div class = "sidebar-left-container"> 
     <div class = "sidebar-left-image-container">
-    <img src = "${picture.image}" class = "sidebar-left-image"> 
+    <img src = "../${picture.image}" class = "sidebar-left-image"> 
     </div>
     <div class = "sidebar-left-image-container-p">
     <p class = "sidebar-left-p">${picture.name}</p>
