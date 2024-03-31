@@ -11,7 +11,7 @@ mainContent.forEach((main1) => {
 <div class ="main-pictures-name-absolute">
 <p>${main1.name}</p>
 <div class = "plus-plus">
-<img src = "images/plus1.svg">
+<img src = "images/PLUS1.svg">
 </div>
 </div>
 </div>

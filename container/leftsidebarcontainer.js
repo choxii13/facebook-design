@@ -28,7 +28,7 @@ export const leftSide = [
     name: "See More",
   },
   {
-    image: "images/AdCenter.png",
+    image: "images/adCenter.png",
     name: "Ad Center",
   },
   {
@@ -48,11 +48,11 @@ export const leftSide = [
     name: "Pages",
   },
   {
-    image: "images/Climate.png",
+    image: "images/climate.png",
     name: "Climate Science Center",
   },
   {
-    image: "images/Events.png",
+    image: "images/events.png",
     name: "Events",
   },
   {
@@ -68,11 +68,11 @@ export const leftSide = [
     name: "Orders and Payments",
   },
   {
-    image: "images/Playgame.png",
+    image: "images/playgame.png",
     name: "Play Games",
   },
   {
-    image: "images/AdActivity.png",
+    image: "images/adactivity.png",
     name: "Recent Ad Activity",
   },
 
